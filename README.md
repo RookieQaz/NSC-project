@@ -1,0 +1,2 @@
+# NSC-project
+Kibersaqshy Team
