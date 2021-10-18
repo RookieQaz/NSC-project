@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Чат</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="dist/emoji-panel-apple-32.min.css">
+	<link rel="stylesheet" type="text/css" href="chatstyle.css">
+</head>
+<body>
+<body style='overflow-x:hidden;'> 	
+	<div class="container">
+	<div class="logo">
+		Киберзащитники
+		   	<button id="logout" value="logout">
+    	<img src="img/logout.png" width="28px" alt="" style="vertical-align:middle"> 
+   	</button>	
+	</div>
+		<div class="chat_window">
+			<div class="my_message messages">
+    			<div class="user_bubble_round">
+      				{{ message.text }}
+    		    </div>
+			</div>
+  		<div class="user">
+  			<div class="username">{{ message.author }}</div>
+    		<div class="user_bubble_round">
+      				{{ message.text }}
+   			</div>
+  		</div>
+ 			<div class="my_message messages">
+    			<div class="user_bubble_round">
+      				{{ message.text }}
+    		    </div>
+			</div>
+  		<div class="user">
+   			<div class="username">{{ message.author }}</div>
+    		<div class="user_bubble_round">
+      				{{ message.text }}
+   			</div>
+  		</div>
+ 			<div class="my_message messages">
+    			<div class="user_bubble_round">
+      				{{ message.text }}
+    		    </div>
+			</div>
+  		<div class="user">
+   			<div class="username">{{ message.author }}</div>
+    		<div class="user_bubble_round">
+      				{{ message.text }}
+   			</div>
+  		</div>	
+ 			<div class="my_message messages">
+    			<div class="user_bubble_round">
+      				{{ message.text }}
+    		    </div>
+			</div>
+  		<div class="user">
+   			<div class="username">{{ message.author }}</div>
+    		<div class="user_bubble_round">
+      				{{ message.text }}
+   			</div>
+  		</div>	
+
+	</div>
+
+ 	<form class="writeme" name="test" method="post" action="">
+   		<input type="text" size="40" placeholder="Напишите что то...">
+ 	</form>
+ 	<form class="addbar">
+
+ <!---  	<button value="emoji">
+    	<img src="img/emoji.png" width="28px" alt="" style="vertical-align:middle"> 
+   	</button> </div> -->
+
+   	<button id="jiberu" value="send">
+    	<img src="img/send.png" width="28px" alt="" style="vertical-align:middle"> 
+   	</button>
+   </form>
+
+
+  		  		<!--- <div class="panel">
+			<div class="attach"><button><img src="img/attach.png" width="28px></button></div>
+				 -->
+</body>
+</html>
+

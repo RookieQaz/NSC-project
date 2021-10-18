@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;	
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% -20%;
+    background-size: 40%;
+	background-color: #EDEEF0;
+	color: #2787F5;
+}
+.auth {
+	margin-left: 35%;
+	margin-top: 100px;
+	margin-right: 35%;
+  	background-color: #FFFFFF;	
+  	text-align: center;	
+  	border-radius: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+	padding-top: 0px;
+  	padding-bottom: 20px;
+}
+
+.welcome {
+	color: #29323C;
+	font-size: 34px;
+}
+
+.icon {
+	width: 100px;
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.text {
+	margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto
+    color: #000;
+}
+
+.login {
+    margin-top: 20px;
+    width: 200px;
+    display: block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px #EEEEEE;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+}
+.password {
+	margin-top: 10px;
+	width: 200px;
+    display: block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px #EEEEEE;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+}
+.form_inner {
+    text-align: center;
+}
+.next {
+	margin-top: 10px;
+	width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.button {
+	font-size: 16px;
+	padding: 7px 16px;
+	line-height: 20px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #4E77FB;
+    outline: none;
+}
+
+.button:hover {
+	font-size: 16px;
+	padding: 7px 16px;
+	line-height: 20px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #456BE6;
+    outline: none;
+}
+
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
